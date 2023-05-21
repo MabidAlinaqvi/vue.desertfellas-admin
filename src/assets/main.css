@@ -1,0 +1,237 @@
+@import './base.css';
+
+.navbar {
+  background-color: #020200;
+
+}
+
+.navber-center-menu {
+  justify-content: center !important;
+  flex-grow: 0 !important;
+}
+
+.navber-center-menu a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.navbar-nav .show>.nav-link,
+.navbar-nav .nav-link.active {
+  color: #eea72b !important;
+}
+
+/* a {
+  color: #eea72b !important;
+  text-decoration: none !important;
+  font-size: 22px;
+  font-weight: 700;
+} */
+
+.a-link-style{
+  color: #eea72b !important;
+  text-decoration: none !important;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.navber-center-menu a:hover {
+  color: #eea72b;
+}
+
+/**************************  HERO HEADING SECTION ***********************/
+.page-title-pro {
+  background-color: #191919;
+  /* background-image: url(https://desertfellas.com/wp-content/uploads/2018/12/body-header.jpg); */
+  background-image: url('/src/assets/images/body-header.jpg');
+  padding-top: 150px;
+  padding-bottom: 35px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-title-pro h1 {
+  font-weight: 700;
+  position: relative;
+  color: #ffffff;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.aligncenter {
+  text-align: center;
+  margin: 0px auto 20px auto;
+  display: block;
+}
+
+.aligncenter img {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+}
+
+.evo_cal_other_header {
+  font-weight: 700;
+  display: block;
+  line-height: 100%;
+  margin: 0 !important;
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  width: auto;
+}
+
+/******************************** EVENTS LISTING ************************************/
+.event-list-item {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  background-color: #F3F3F3;
+  min-height: 200px;
+  border-left: 5px solid #206177;
+  padding: 20px;
+  display: flex;
+}
+
+.event-list-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.evo_start {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.evo_start .day {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #202124;
+}
+
+.evo_start .date {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #202124;
+  line-height: 1.2;
+}
+
+.evo_start .month {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #202124;
+}
+
+.evo_desc {
+  padding: 0px;
+  margin: 0px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.event_title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 120%;
+  padding-bottom: 8px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+
+.evcal_time i {
+  margin-right: 10px;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.evoet_eventtypes i {
+  margin-right: 10px;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.evo_attending {
+  padding: 15px;
+}
+
+.evo_attending span {
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 0 10px 0 0;
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+  background-color: #adadad;
+}
+
+.special-list-item {
+  background-color: #FFECC5 !important;
+}
+
+.menu-footer-navigation-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-footer-navigation-container ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  border: none;
+  line-height: 1.5;
+}
+
+.menu-footer-navigation-container ul li a {
+  display: inline-block;
+  padding: 40px 0px 25px 0px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #797979 !important;
+}
+
+.menu-footer-navigation-container ul li a:hover {
+  font-weight: 600;
+  /* font-size: 13px; */
+  color: #fff !important;
+}
+
+.li-spacer {
+  display: inline-block;
+  padding: 40px 0px 25px 0px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #797979 !important;
+  margin: 0px 20px !important;
+  line-height: 7 !important;
+}
+
+.copyright-text {
+  padding: 35px 0px 35px 35px;
+  font-size: 14px;
+  color: #535353;
+}

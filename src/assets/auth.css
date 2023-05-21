@@ -1,0 +1,58 @@
+/**************************  Login Page **********************/
+.login-contianer {
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 450px;
+    padding-bottom: 50px;
+}
+
+.um-field-checkbox {
+    cursor: pointer;
+}
+
+.login-register-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-register-btn button {
+    padding: 13px 80px;
+}
+
+.login-btn {
+    background: #3ba1da;
+    border: none;
+    opacity: 1;
+}
+
+.login-btn:hover {
+    background: #3ba1da !important;
+}
+
+.register-btn {
+    background: #fff;
+    border: none;
+    color: #666;
+}
+
+.register-btn:hover {
+    background: #fff !important;
+    color: #666 !important;
+}
+
+.forget-password .forget-password-link {
+    line-height: 22px;
+    color: #888 !important;
+    display: block !important;
+    text-decoration: none !important;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: none !important;
+
+}
